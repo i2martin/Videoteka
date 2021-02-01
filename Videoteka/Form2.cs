@@ -17,12 +17,27 @@ namespace Videoteka
             InitializeComponent();
         }
 
-        private void Close_Click(object sender, EventArgs e)
+        private void Zatvori_Click_1(object sender, EventArgs e)
         {
             this.Hide();
             Form1 form1 = new Form1();
             form1.Closed += (s, args) => this.Close();
             form1.Show();
+        }
+
+        private void Pregledaj_Click(object sender, EventArgs e)
+        {
+            ImeProzora.Text = " Pregledaj filmove";
+        }
+
+        private void Iznajmi_Click(object sender, EventArgs e)
+        {
+            ImeProzora.Text = "Iznajmljivanje";
+        }
+
+        private void Vrati_Click(object sender, EventArgs e)
+        {
+            ImeProzora.Text = "Vraćanje";
         }
     }
 }

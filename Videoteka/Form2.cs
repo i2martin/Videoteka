@@ -28,16 +28,43 @@ namespace Videoteka
         private void Pregledaj_Click(object sender, EventArgs e)
         {
             ImeProzora.Text = " Pregledaj filmove";
+            this.Prozori.Controls.Clear();
+            Pregledaj pregledaj = new Pregledaj()
+            {
+                Dock = DockStyle.Fill,
+                TopLevel = false,
+                TopMost = true
+            };
+            this.Prozori.Controls.Add(pregledaj);
+            pregledaj.Show();
         }
 
         private void Iznajmi_Click(object sender, EventArgs e)
         {
             ImeProzora.Text = "Iznajmljivanje";
+            this.Prozori.Controls.Clear();
+            Iznajmi iznajmi = new Iznajmi()
+            {
+                Dock = DockStyle.Fill,
+                TopLevel = false,
+                TopMost = true
+            };
+            this.Prozori.Controls.Add(iznajmi);
+            iznajmi.Show();
         }
 
         private void Vrati_Click(object sender, EventArgs e)
         {
             ImeProzora.Text = "Vraćanje";
+            this.Prozori.Controls.Clear();
+            Vrati vrati = new Vrati()
+            {
+                Dock = DockStyle.Fill,
+                TopLevel = false,
+                TopMost = true
+            };
+            this.Prozori.Controls.Add(vrati);
+            vrati.Show();
         }
     }
 }

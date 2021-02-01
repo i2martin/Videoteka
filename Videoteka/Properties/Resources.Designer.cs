@@ -61,6 +61,38 @@ namespace Videoteka.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to The Avengers,4
+        ///Avengers: Age of Ultron,4
+        ///Avengers: Infinity War,4
+        ///Avengers: Endgame,4
+        ///The Goonies,4
+        ///Lord of the rings: Fellowship of the Ring,4
+        ///Lord of the rings: Two towers,4
+        ///Lord of the rings: Return of the King,4.
+        /// </summary>
+        internal static string BazaFilmova {
+            get {
+                return ResourceManager.GetString("BazaFilmova", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The Avengers,4
+        ///Avengers: Age of Ultron,4
+        ///Avengers: Infinity War,4
+        ///Avengers: Endgame,4
+        ///The Goonies,4
+        ///Lord of the rings: Fellowship of the Ring,4
+        ///Lord of the rings: Two towers,4
+        ///Lord of the rings: Return of the King,4.
+        /// </summary>
+        internal static string Filmovi {
+            get {
+                return ResourceManager.GetString("Filmovi", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to admin.
         /// </summary>
         internal static string KorisničkoIme {

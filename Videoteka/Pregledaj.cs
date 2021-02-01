@@ -21,15 +21,17 @@ namespace Videoteka
 
         private void Pregledaj_Load(object sender, EventArgs e)
         {
-            string film, Kolicina;
             string line;
+            string[] stringovi;
             using (StreamReader file = new StreamReader(Assembly.
                 GetExecutingAssembly().GetManifestResourceStream
                 ("Videoteka.Resources.BazaFilmova.txt")))
             {
                 while ((line = file.ReadLine()) != null)
                 {
-                    
+                    stringovi = line.Split(',');
+                    Filmovi.Items.Add(stringovi[0]);
+                    Količina.Items.Add(stringovi[1]);
                 }
             }
                 

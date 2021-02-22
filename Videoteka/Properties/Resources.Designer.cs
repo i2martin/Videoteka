@@ -93,6 +93,26 @@ namespace Videoteka.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string Iznajmljivanja {
+            get {
+                return ResourceManager.GetString("Iznajmljivanja", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Pero Perić, Matije Gupca 153, 32236, Ilok
+        ///Jovan Jovanović, Grada Vukovara 17, 32236, Mohovo
+        ///Vinko Grbeš, Vukovarska 4, 32234, Šarengrad.
+        /// </summary>
+        internal static string Korisnici {
+            get {
+                return ResourceManager.GetString("Korisnici", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to admin.
         /// </summary>
         internal static string KorisničkoIme {

@@ -124,6 +124,12 @@
   <data name="Filmovi" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Filmovi.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1250</value>
   </data>
+  <data name="Iznajmljivanja" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\iznajmljivanja.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1250</value>
+  </data>
+  <data name="Korisnici" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\korisnici.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1250</value>
+  </data>
   <data name="KorisničkoIme" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\KorisničkoIme.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1250</value>
   </data>

@@ -66,5 +66,10 @@ namespace Videoteka
             this.Prozori.Controls.Add(vrati);
             vrati.Show();
         }
+
+        public void Form2_Load(object sender, EventArgs e)
+        {
+            Korisnici.DohvatiKorisnike();
+        }
     }
 }

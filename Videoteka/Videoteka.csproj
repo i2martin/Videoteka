@@ -138,9 +138,9 @@
     <EmbeddedResource Include="Resources\Filmovi.txt" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Resources\Iznajmljivanja.txt">
+    <Content Include="Resources\Iznajmljivanja.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </EmbeddedResource>
+    </Content>
     <EmbeddedResource Include="Resources\Korisnici.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>

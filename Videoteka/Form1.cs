@@ -41,6 +41,9 @@ namespace Videoteka
                 Form2 form2 = new Form2();
                 form2.Closed += (s, args) => this.Close();
                 form2.Show();
+                //konekcija s bazom podataka
+
+
             }
             else
             {
